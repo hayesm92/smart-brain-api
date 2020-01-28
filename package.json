@@ -6,7 +6,7 @@
     "node": "12.13.0"
   },
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
