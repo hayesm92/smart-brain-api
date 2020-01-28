@@ -30,6 +30,7 @@ const someOtherPlaintextPassword = 'not_bacon';
 app.listen(process.env.PORT || 3000, () => {
     console.log(`app is running on port ${process.env.PORT}`);
 })
+app.get('/', (req,res) => {res.send('it is working')});
 //Sign In
 app.post('/signin', (req,res) => {signin.handleSignin(req,res,db,bcrypt)})
   
