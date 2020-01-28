@@ -2,6 +2,9 @@
   "name": "smart-brain-api",
   "homepage": "https://hayesm92.github.io/smartbrainapi",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.13.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
