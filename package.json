@@ -1,6 +1,6 @@
 {
   "name": "smart-brain-api",
-  "homepage": "https://hayesm92.github.io/smartbrainapi",
+  "homepage": "https://hayesm92.github.io/smart-brain-api",
   "version": "1.0.0",
   "engines": {
     "node": "12.13.0"
