@@ -27,8 +27,8 @@ const saltRounds = 10;
 const myPlaintextPasswordS = 's0/\/\P4$$w0rD';
 const someOtherPlaintextPassword = 'not_bacon';
 
-app.listen(3000, () => {
-    console.log('app is running on port 3000');
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`app is running on port ${process.env.PORT}`);
 })
 //Sign In
 app.post('/signin', (req,res) => {signin.handleSignin(req,res,db,bcrypt)})
