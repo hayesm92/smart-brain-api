@@ -9,8 +9,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    
   },
   "keywords": [],
   "author": "",
@@ -23,11 +22,11 @@
     "express": "^4.17.1",
     "knex": "^0.20.8",
     "nan": "^2.14.0",
-    "nodemon": "^2.0.2",
-    "pg": "^7.17.1",
-    "react-scripts": "^3.3.0"
+    "pg": "^7.17.1"
+    
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "nodemon": "^2.0.2"
   }
 }
